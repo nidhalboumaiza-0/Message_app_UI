@@ -1,16 +1,24 @@
-# projet_de_floutter
+# Message App UI
 
-A new Flutter project.
+A Flutter prototype for a mobile messaging experience. It focuses on the main presentation flows for authentication, conversations, profiles, and app navigation.
 
-## Getting Started
+## Included Screens
 
-This project is a starting point for a Flutter application.
+- Login
+- Conversation and message views
+- User profile and personal profile
+- Navigation drawer
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter and Dart
+- Local image and font assets
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Run Locally
+
+```bash
+flutter pub get
+flutter run
+```
+
+This repository is primarily a UI prototype. Connect it to an authentication and messaging backend before using it as a production chat application.
