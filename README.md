@@ -16,9 +16,29 @@ A Flutter prototype for a mobile messaging experience. It focuses on the main pr
 
 ## Run Locally
 
-```bash
-flutter pub get
-flutter run
-```
+1. Install Flutter and the Android or iOS development toolchain.
+2. Verify the local Flutter setup:
 
-This repository is primarily a UI prototype. Connect it to an authentication and messaging backend before using it as a production chat application.
+   ```bash
+   flutter doctor
+   ```
+
+3. From the repository root, install packages:
+
+   ```bash
+   flutter pub get
+   ```
+
+4. Start an emulator, simulator, or connect a device, then check that Flutter detects it:
+
+   ```bash
+   flutter devices
+   ```
+
+5. Run the UI prototype:
+
+   ```bash
+   flutter run
+   ```
+
+No backend configuration is required for the current interface prototype. Connect it to authentication and messaging services before using it as a production chat application.
